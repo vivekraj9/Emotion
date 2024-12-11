@@ -42,7 +42,7 @@ def detect_emotion_and_draw_rectangle(image):
 # Streamlit UI
 st.title("Emotion Detection with Webcam")
 FRAME_WINDOW = st.image([])
-toggle_button = st.button("Start/Stop Webcam")
+toggle_button = st.button("Start Webcam")
 
 if "camera_active" not in st.session_state:
     st.session_state.camera_active = False
